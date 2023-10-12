@@ -194,8 +194,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                     ),
                                     child: Container(
                                       alignment: Alignment.bottomCenter,
-                                      padding: const EdgeInsets.all(15),
-                                      height: height * .22,
+                                      padding: const EdgeInsets.all(14),
+                                      height: height * .20,
                                       child: Column(
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
@@ -235,7 +235,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   overflow:
                                                       TextOverflow.ellipsis,
                                                   style: GoogleFonts.poppins(
-                                                    fontSize: 17,
+                                                    fontSize: 11,
                                                     fontWeight: FontWeight.w600,
                                                   ),
                                                 ),
@@ -348,7 +348,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     .source!.name
                                                     .toString(),
                                                 style: GoogleFonts.poppins(
-                                                  fontSize: 12,
+                                                  fontSize: 9,
                                                   color: Colors.black54,
                                                   fontWeight: FontWeight.w700,
                                                 ),
@@ -356,7 +356,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               Text(
                                                 format.format(datetime),
                                                 style: GoogleFonts.poppins(
-                                                  fontSize: 13,
+                                                  fontSize: 9,
                                                   color: Colors.black54,
                                                   fontWeight: FontWeight.w800,
                                                 ),
