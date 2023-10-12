@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
               const SizedBox(
                 height: 12,
               ),
-              const SpinKitWave(
+              const SpinKitWaveSpinner(
                 color: Colors.red,
                 size: 40,
               ),
@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 height: 35,
               ),
               Text(
-                "Design & Developed by\n Zain Asif",
+                "Design & Developed by \n Zain Asif",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.anton(
                   letterSpacing: .6,
